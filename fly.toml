@@ -1,0 +1,7 @@
+app = "discord-music-bot"
+primary_region = "fra"
+
+[build]
+
+[processes]
+  app = "python bot.py"
