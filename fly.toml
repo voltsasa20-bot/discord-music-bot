@@ -1,7 +1,12 @@
-app = "discord-music-bot"
+app = "discord-music-bot-qbhzja"
 primary_region = "fra"
 
 [build]
 
 [processes]
   app = "python bot.py"
+
+[machines]
+  auto_stop_machines = false
+  auto_start_machines = false
+  min_machines_running = 1
